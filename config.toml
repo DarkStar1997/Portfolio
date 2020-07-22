@@ -1,0 +1,74 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Rohan Mark Gomes"
+theme = "hugo-developer-portfolio"
+
+[params.plugins]
+
+    [[params.plugins.css]]
+        URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+    
+    [[params.plugins.js]]
+        URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+    [[params.plugins.js]]
+        URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+[menu]
+
+    [[menu.main]]
+        name = "Achievements"
+        URL = "achievements"
+        weight=1
+
+    [[menu.main]]
+        name = "Blog"
+        URL = "blog"
+        weight=2
+
+    [[menu.main]]
+        name = "Certifications"
+        URL = "certifications"
+        weight=3
+
+    [[menu.main]]
+        name = "Projects"
+        url = "projects"
+        weight=4
+
+    [[menu.main]]
+        name = "Random Talks"
+        url = "random_talks"
+        weight=5
+
+    [[menu.main]]
+        name = "Contact"
+        url = "contact"
+        weight=6
+
+[params]
+home = "Home"
+# Meta data
+description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
+author = "Sam Robbins"
+
+
+  [params.contact]
+  enable = true
+  formAction = "" #contact form works with formspree.io
+
+  [params.footer]
+  email = "rohanmarkgomes@gmail.com"
+  address = "Kolkata, India"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 4
+
