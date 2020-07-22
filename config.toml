@@ -48,7 +48,7 @@ theme = "hugo-developer-portfolio"
 [params]
 home = "Home"
 # Meta data
-description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
+description = "The website of Rohan Mark Gomes"
 author = "Sam Robbins"
 
 
